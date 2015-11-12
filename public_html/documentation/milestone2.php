@@ -41,7 +41,7 @@
 			<p><strong>Goals:</strong> Nancy&#146;s goal is to sit down this evening with a nice glass of wine and peruse the web
 				for new works of art. She has nothing specific in mind just 45 minutes of relaxing and browsing before
 				dinner. Our goal is to catch her attention with Reb Willard&#146;s site, so we can capture her contact information for future communication and to increase the chaces of a future sale.</p>
-			<img src="img/site-flow.jpg" alt="Reb's website flow" >
+			<img src="img/site-flow-800px.jpg" alt="Reb's website flow" >
 
 			<h2>Use Case</h2>
 
