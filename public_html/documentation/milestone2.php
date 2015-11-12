@@ -73,7 +73,7 @@
 			<p><strong>Home Page:</strong> A page filled with a close up of one of Reb’s works. Possibly a slide show of a
 				few painting and/or a quote from the artist. The navigation bar at the top and social media links in the footer.</p>
 
-			<p><strong>Selected Work:</strong> 8 - 10 examples of Reb’s acrylics and photographs works.</p>
+			<p><strong>Selected Work:</strong> 8 - 10 examples of Reb&#146;s acrylics and photographs works.</p>
 
 			<p><strong>About Reb:</strong> This page will have a picture of Reb’s with a bio and a paragraph about her as an artist.</p>
 
