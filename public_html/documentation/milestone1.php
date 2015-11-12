@@ -9,16 +9,20 @@
 			<h1>Milestone 1: Website for the artist Reb Willard </h1>
 
 			<p><strong>Purpose:</strong> Introduce and showcase the paintings and photographs of Reb Willard in a
-				compelling way to gathers leads, so future sales can be made. Also allows for the easy social media sharing
+				compelling way to gather leads, so future sales can be made. Also allows for the easy social media sharing
 				of Reb's art to further market her work. </p>
 
-			<p><strong>Audience:</strong> This site will be for potential customers, businesses that are related to interior design, and people who enjoy art.</p>
-			<p>Individual customers are upper middle class. They own their own home or rent a high-end apartment. Individuals fall into these categories:</p>
+			<p><strong>Audience:</strong> This site will be for potential customers, businesses that are related to
+				interior design, and people who enjoy art.</p>
+
+			<p>Individual customers are upper middle class. They own their own home or rent a high-end apartment.
+				Individuals fall into these categories:</p>
 			<ul>
 				<li>Loves interior design. Every space is a place to create something special.</li>
 				<li>Enjoys collecting unique items from crafters, artists, photographers, etc.</li>
 				<li>Enjoys festivals such as gallery strolls, gallery openings, renaissance fairs, Shakespeare festivals
-					etc.</li>
+					etc.
+				</li>
 				<li>Would rather see a play or dance performance than watch TV.</li>
 				<li>Is an artist herself.</li>
 			</ul>
