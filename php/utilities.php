@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -28,23 +29,6 @@
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled pugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-		<title>Art by Reb Willard</title>
+		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
 	<body>
-
-
-		<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<p>Here is a left column on this web page.</p>
-			</div>
-			<div class="col-md-9">
-				<p>Here is the main content area of this web page.</p>
-			</div>
-		</div>
-
-	</div>
-
-
-	</body>
-</html>
