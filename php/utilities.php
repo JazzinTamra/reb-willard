@@ -1,4 +1,11 @@
-<?php session_start() ?>
+<?php session_start();
+
+/**
+ * defines the root path of the entire site
+ * @see https://bootcamp-coders.cnm.edu/~tfenstermaker/reb-willard/
+ **/
+require_once (dirname(__DIR__)) . "/root-path.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>

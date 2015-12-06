@@ -8,6 +8,7 @@
 require_once("php/utilities.php");
 require_once("php/header.php");
 require_once("php/footer.php");
+$PAGE_TITLE = "Reb Willard";
 ?>
 <!DOCTYPE html>
 <head>
