@@ -8,7 +8,7 @@
 ?>
 <!DOCTYPE html>
 <nav class="navbar navbar-default">
-  <div class="navbar-header">
+  <div class="navbar-header nav-radius">
     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
       <span class="sr-only">main menu</span>
       <span class="glyphicon glyphicon-menu-hamburger"></span>
@@ -18,10 +18,10 @@
 
   <div class="collapse navbar-collapse" id="main-menu">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Link1</a></li>
-      <li><a href="#">Link2</a></li>
-      <li><a href="#">Link3</a></li>
+      <li><a href="../index.php">HOME</a></li>
+      <li><a href="../SELECTED-WORKS">SELECTED WORKS</a></li>
+      <li><a href="../ABOUT-REB">ABOUT REB</a></li>
+      <li><a href="../CONNECT">CONNECT</a></li>
     </ul>
   </div>
 </nav>
