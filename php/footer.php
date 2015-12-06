@@ -8,5 +8,6 @@
 ?>
 <div id="footer">
   <div class="container">
-    <p class="footer-text">Rebecca Willard - Copyright c 2015</p>
+    <p class="footer-text">Rebecca Willard - Copyright &#169; 2015
+	  <a href="http://facebook.com/becky.willard2" target="_blank"><img src="../img/social-006_facebook.png" alt="facebook"></a></p>
   </div>
