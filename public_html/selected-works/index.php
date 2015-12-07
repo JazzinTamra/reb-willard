@@ -57,7 +57,7 @@ require_once("../php/footer.php");
 <body>
 	<main>
 
-			<a href="/../reb-willard/img/abandoned-farm-tx.jpg" title="small farm"></a>
+			<a href="/public_html/img/abandoned-farm-tx.jpg" title="small farm"></a>
 			<a href="big/../image" class="swipebox" title="My Caption">
 				<img src="small/image.jpg" alt="image">
 			</a>

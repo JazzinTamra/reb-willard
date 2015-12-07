@@ -25,7 +25,7 @@ require_once (dirname(__DIR__)) . "/root-path.php";
 
   <div class="collapse navbar-collapse" id="main-menu">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="../index.php">HOME</a></li>
+      <li><a href="../public_html/index.php">HOME</a></li>
       <li><a href="../selected-works/index.php" title="Selected works">SELECTED WORKS</a></li>
       <li><a href="../about-reb/index.php">ABOUT REB</a></li>
       <li><a href="../connect/index.php">CONNECT</a></li>

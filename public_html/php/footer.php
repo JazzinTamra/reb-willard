@@ -12,6 +12,6 @@
 
 		<div class="container"
 		<a href="http://facebook.com/becky.willard2" target="_blank"><img
-				src="/../reb-willard/img/social-006_facebook.png" alt="facebook"></a></p>
+				src="/public_html/img/social-006_facebook.png" alt="facebook"></a></p>
 	</div>
 </div>

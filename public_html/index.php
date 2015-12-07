@@ -1,14 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tamra
- * Date: 12/5/2015
- * Time: 8:24 AM
- */
-/*load head-utils.php*/
-require_once("php/utilities.php");
-require_once("php/header.php");
-require_once("php/footer.php");
 
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
@@ -24,7 +14,7 @@ require_once("php/utilities.php");
 			<div class="col-md-3">
 				<p>Here is a left column on this web page.</p>
 			</div>
-			<img src="../img/social-006_facebook.png" alt="facebook">
+			<img src="img/social-006_facebook.png" alt="facebook">
 			<a href="http://facebook.com/becky.willard2" target="_blank"></a>
 			<div class="col-md-9">
 				<p>Here is the main content area of this web page.</p>
