@@ -8,6 +8,7 @@ require_once("php/utilities.php");
 ?>
 
 <body class="jumbotron">
+	<?php require_once("php/header.php");?>
 <main>
 	<div class="container">
 		<div class="row">
@@ -22,6 +23,7 @@ require_once("php/utilities.php");
 		</div>
 </div>
 </main>
+	<?php require_once("php/footer.php");?>
 <!--	<div id="footer">-->
 <!--		<div class="container">-->
 <!--			<p class="footer-text">Rebecca Willard - Copyright c 2015</p>-->

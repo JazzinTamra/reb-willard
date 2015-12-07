@@ -8,7 +8,7 @@
 
 // include the appropriate number of dirname() functions
 // on line 8 to correctly resolve your directory's path
-require_once(dirname(__DIR__) . "root-path.php");
+require_once(dirname(__DIR__) . "/root-path.php");
 $CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
 $ROOT_DEPTH = substr_count($ROOT_PATH, "/");
 $DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
@@ -29,7 +29,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
 				rel="stylesheet"/>
 		<!--		necessary for swipebox-->
-		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/swipebox.css">
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/swipebox.min.css">
 		<!-- My CSS style sheet -->
 		<link type="text/css" href="<?php echo $PREFIX;?>css/style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,7 +45,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <!--		necessary for swipebox-->
-		<script src="<?php echo $PREFIX;?>js/jquery.swipebox.js"></script>
+		<script src="<?php echo $PREFIX;?>js/jquery.swipebox.min.js"></script>
+		<script src="<?php echo $PREFIX;?>js/swipebox.js"></script>
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
