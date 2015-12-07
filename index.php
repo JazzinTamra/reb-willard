@@ -5,14 +5,18 @@
  * Date: 12/5/2015
  * Time: 8:24 AM
  */
+/*load head-utils.php*/
 require_once("php/utilities.php");
 require_once("php/header.php");
 require_once("php/footer.php");
-$PAGE_TITLE = "Reb Willard";
+
+/*grab current directory*/
+$CURRENT_DIR = __DIR__;
+/*set page title here*/
+$PAGE_TITLE = "MY PAGE TITLE";
+require_once("php/utilities.php");
 ?>
-<!DOCTYPE html>
-<head>
-</head>
+
 <body class="jumbotron">
 <main>
 	<div class="container">

@@ -5,8 +5,8 @@
  * Date: 12/5/2015
  * Time: 8:43 AM
  */
-/*grab current directory*/
-$CURRENT_DIR = __DIR__;
+///*grab current directory*/
+//$CURRENT_DIR = __DIR__;
 /*set page title here*/
 require_once (dirname(__DIR__)) . "/root-path.php";
 
@@ -26,7 +26,7 @@ require_once (dirname(__DIR__)) . "/root-path.php";
   <div class="collapse navbar-collapse" id="main-menu">
     <ul class="nav navbar-nav navbar-right">
       <li><a href="../index.php">HOME</a></li>
-      <li><a href="/selected-works/index.php">SELECTED WORKS</a></li>
+      <li><a href="../selected-works/index.php" title="Selected works">SELECTED WORKS</a></li>
       <li><a href="../about-reb/index.php">ABOUT REB</a></li>
       <li><a href="../connect/index.php">CONNECT</a></li>
     </ul>
