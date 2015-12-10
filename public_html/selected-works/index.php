@@ -53,7 +53,6 @@ require_once("../php/footer.php");
 			</script>
 		</head>
 
-</head>
 <body>
 	<main>
 
