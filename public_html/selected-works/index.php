@@ -15,14 +15,14 @@ require_once("../php/footer.php");
 			<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-			<!-- Bootstrap Latest complied and minified CSS -->
-			<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 			<!-- optional theme -->
 			<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
 					rel="stylesheet"/>
 			<!-- My CSS style sheet -->
-			<link type="text/css" href="css/style.css" rel="stylesheet">
+			<link type="text/css" href="../css/style.css" rel="stylesheet">
 			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			<!--[if lt IE 9]-->
@@ -43,20 +43,14 @@ require_once("../php/footer.php");
 			<script src="src/js/jquery.swipebox.js"></script>
 			<link rel="stylesheet" href="src/css/swipebox.css">
 
-			<title><?php echo $PAGE_TITLE; ?></title>
-			<script type="text/javascript">
-				;( function( $ ) {
 
-					$( '.swipebox' ).swipebox();
-
-				} )( jQuery );
-			</script>
 		</head>
-
+	<title><?php echo $PAGE_TITLE; ?></title>
 <body>
 	<main>
 
-			<a href="/public_html/img/abandoned-farm-tx.jpg" title="small farm"></a>
+			<a href="../img/synapsis-250.jpg" title="synapsis"></a>
+			<a href="../img/synapsis-594.jpg" title="synapsis"></a>
 			<a href="big/../image" class="swipebox" title="My Caption">
 				<img src="small/image.jpg" alt="image">
 			</a>
