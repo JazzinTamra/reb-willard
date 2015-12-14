@@ -19,3 +19,6 @@ This is excellent work Tamra, and I love the fact that this is a real client pro
 This layout should be a breeze in Bootstrap. Take a look at the [Swipebox](http://brutaldesign.github.io/swipebox/) plugin for your gallery. A handful of students have used this in the past with great results, and it's mobile friendly. If you have any questions about implementing this, let me know.
 
 Your Milestone 3 passes at Tier IV. Go ahead and get started on development of your PWP.
+
+## Working On
+Rochelle - I'm still having trouble getting the nav bar to work. Do you know of a project that uses the nav bar that you were showing me, so I can take a look at that code?
