@@ -5,8 +5,9 @@
  * Date: 12/5/2015
  * Time: 8:24 AM
  */
-require_once("php/header.php");
-require_once("php/footer.php");
+require_once("../php/header.php");
+require_once("../php/footer.php");
+$PAGE_TITLE = "Connect with Reb";
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -7,6 +7,13 @@
  */
 require_once("php/header.php");
 require_once("php/footer.php");
+//grab current directory
+$CURRENT_DIR = __DIR__;
+require_once("../root-path.php");
+$CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
+$ROOT_DEPTH = substr_count($ROOT_PATH, "/");
+$DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
+$PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 ?>
 <!DOCTYPE html>
 <html lang="en">
