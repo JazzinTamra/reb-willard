@@ -6,14 +6,13 @@
  * Time: 8:24 AM
  */
 require_once("php/header.php");
-require_once("php/footer.php");
+//require_once("php/footer.php");
 //grab current directory
 $CURRENT_DIR = __DIR__;
-require_once("../root-path.php");
-$CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
-$ROOT_DEPTH = substr_count($ROOT_PATH, "/");
-$DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
-$PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
+/*set page title here*/
+$PAGE_TITLE = "Reb Willard";
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,20 +52,61 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
 
-<body class="jumbotron">
+<body>
 	<?php require_once("php/header.php");?>
 <main>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<p>Here is a left column on this web page.</p>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="../public_html/img/extra-large/santafe-walk-1600.jpg" alt="Santa Fe Walk">
+				<div class="Santa Fe Walk">
+					...
+				</div>
 			</div>
-			<img src="img/social-006_facebook.png" alt="facebook">
-			<a href="http://facebook.com/becky.willard2" target="_blank"></a>
-			<div class="col-md-9">
-				<p>Here is the main content area of this web page.</p>
+			<div class="item">
+				<img src="../public_html/img/extra-large/abiquiu-church-in-ruins-1600px.jpg" alt="Abiquiu Church in Ruin">
+				<div class="Color Study No 102">
+					...
+				</div>
 			</div>
+			<div class="item">
+				<img src="../public_html/img/extra-large/chama-in-bloom-1600px.jpg" alt="Chama in Bloom">
+				<div class="Chama in Bloom">
+					...
+				</div>
+			</div>
+
 		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+<!--	<div class="container">-->
+<!--		<div class="row">-->
+<!--			<div class="col-md-3">-->
+<!--				<p>Here is a left column on this web page.</p>-->
+<!--			</div>-->
+<!--			<img src="img/social-006_facebook.png" alt="facebook">-->
+<!--			<a href="http://facebook.com/becky.willard2" target="_blank"></a>-->
+<!--			<div class="col-md-9">-->
+<!--				<p>Here is the main content area of this web page.</p>-->
+<!--			</div>-->
+<!--		</div>-->
 </div>
 </main>
 	<?php require_once("php/footer.php");?>
