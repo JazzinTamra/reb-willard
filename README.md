@@ -22,3 +22,20 @@ Your Milestone 3 passes at Tier IV. Go ahead and get started on development of y
 
 ## Working On
 Rochelle - I'm still having trouble getting the nav bar to work. Do you know of a project that uses the nav bar that you were showing me, so I can take a look at that code?
+
+## Milestone 4 Feedback
+You've got a great start, but there's still some work to go. Nice job on the respnsive behavior. If you haven't yet gotten swiftmailer installed, take a look at [Sending Email in PHP](https://bootcamp-coders.cnm.edu/class-materials/php/email/)
+
+### Suggestions
+- Take another look at your links in your navbar. It looks like the links in your navbar weren't input right... check the hrefs on your &lt;a&gt; tags. :) 
+
+- Take a look at these two projects for Bootstrap navbar examples:
+ 
+  - https://bootcamp-coders.cnm.edu/~rlewis37/bootstrap-sample/
+  - https://github.com/rlewis2892/bootstrap-sample
+
+
+  - https://bootcamp-coders.cnm.edu/~rlewis37/bootstrap-sandbox/public_html/
+  - https://github.com/rlewis2892/bootstrap-sandbox/tree/karma
+
+- When you deploy to A Small Orange, use CPanel to set the Document Root to your /public_html directory.
