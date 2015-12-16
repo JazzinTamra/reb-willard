@@ -45,9 +45,9 @@ $PAGE_TITLE = "Reb Willard";
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<!--		necessary for swipebox-->
-		<script src="lib/jquery-2.0.3.js"></script>
-		<script src="src/js/jquery.swipebox.js"></script>
-		<link rel="stylesheet" href="src/css/swipebox.css">
+		<script src="lib/jquery-2.0.3.min.js"></script>
+		<script src="../public_html/js/jquery.swipebox.min.js"></script>
+		<link rel="stylesheet" href="../public_html/css/swipebox.min.css">
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>
