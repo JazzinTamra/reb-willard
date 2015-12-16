@@ -25,10 +25,11 @@ require_once('template/prefix-utilities.php')
 
   <div class="collapse navbar-collapse" id="main-menu">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="<?php echo $PREFIX; ?>public_html/index.php">HOME</a></li>
-      <li><a href="<?php echo $PREFIX; ?>public_html/selected-works/index.php" title="Selected works">SELECTED WORKS</a></li>
-      <li><a href="<?php echo $PREFIX; ?>public_html/about-reb/index.php">ABOUT REB</a></li>
-      <li><a href="<?php echo $PREFIX; ?>connect/index.php">CONNECT</a></li>
+      <li><a href="<?php echo $PREFIX; ?>index.php">HOME</a></li>
+      <li><a href="<?php echo $PREFIX; ?>selected-works.php" title="Selected works">SELECTED WORKS</a></li>
+      <li><a href="<?php echo $PREFIX; ?>about-reb.php">ABOUT REB</a></li>
+      <li><a href="<?php echo $PREFIX; ?>connect.php">CONNECT</a></li>
     </ul>
   </div>
+</nav>
 </nav>
