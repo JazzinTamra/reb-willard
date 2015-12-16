@@ -45,7 +45,7 @@ $PAGE_TITLE = "Selected Works";
 			<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
 			<link rel="stylesheet" href="css/swipebox.min.css">
 			<link rel="stylesheet" href="css/demo.css" type="text/css">
-<!--			<link href='demo.css' rel='stylesheet' type='text/css'>-->
+
 
 			<title><?php echo $PAGE_TITLE; ?></title>
 		</head>
