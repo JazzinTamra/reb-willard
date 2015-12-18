@@ -20,19 +20,19 @@ require_once("php/utilities.php");
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="../public_html/img/extra-large/santafe-walk-1600.jpg" alt="Santa Fe Walk">
+				<img src="img/extra-large/santafe-walk-1600.jpg" alt="Santa Fe Walk">
 				<div class="Santa Fe Walk">
 					...
 				</div>
 			</div>
 			<div class="item">
-				<img src="../public_html/img/extra-large/abiquiu-church-in-ruins-1600px.jpg" alt="Abiquiu Church in Ruin">
+				<img src="img/extra-large/abiquiu-church-in-ruins-1600px.jpg" alt="Abiquiu Church in Ruin">
 				<div class="Color Study No 102">
 					...
 				</div>
 			</div>
 			<div class="item">
-				<img src="../public_html/img/extra-large/chama-in-bloom-1600px.jpg" alt="Chama in Bloom">
+				<img src="img/extra-large/chama-in-bloom-1600px.jpg" alt="Chama in Bloom">
 				<div class="Chama in Bloom">
 					...
 				</div>
