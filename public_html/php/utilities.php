@@ -26,10 +26,11 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- optional theme -->
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
 		<!--		necessary for simplelisghtbox-->
-		<link type="text/css" href="../css/simplelightbox.min.css" rel="stylesheet">
+		<link type="text/css" href="<?php echo $PREFIX;?>css/simplelightbox.min.css" rel="stylesheet">
 
 		<!-- My CSS style sheet -->
 		<link type="text/css" href="<?php echo $PREFIX;?>css/style.css" rel="stylesheet">
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]-->
@@ -38,10 +39,18 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled pugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php echo $PREFIX;?>js/simple-lightbox.js"></script>
+		<script type="text/javascript" src="../js/simple-lightbox.min.js"></script>
 		<script src="<?php echo $PREFIX;?>js/custom-scripts.js"></script>
+
+		+		<!--		necessary for swipebox-->
+
+		+		<script src="../js/jquery.swipebox.min.js"></script>
+		+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/swipebox.css">
+
 		<title><?php echo $PAGE_TITLE; ?></title>
 
 	</head>
