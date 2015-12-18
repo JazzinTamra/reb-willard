@@ -46,10 +46,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script type="text/javascript" src="../js/simple-lightbox.min.js"></script>
 		<script src="<?php echo $PREFIX;?>js/custom-scripts.js"></script>
 
-		+		<!--		necessary for swipebox-->
 
-		+		<script src="../js/jquery.swipebox.min.js"></script>
-		+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/swipebox.css">
+		<link type="text/css" href="<?php echo $PREFIX;?>css/demo.css" rel="stylesheet">
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 

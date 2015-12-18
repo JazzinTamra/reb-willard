@@ -56,3 +56,7 @@ body {
 	height: 60px;
 	padding-top: 0px;
 }
+
+/* line 57, ../sass/demo.scss */
+.container .gallery a.big img {
+	width: 40%;

@@ -12,7 +12,7 @@ require_once("php/header.php");
 	<div class="container">
 
 		<div class="gallery">
-<!--			<a href="img/summer-humms-4500.jpg" class="small"><img src="img/summer-humms-4500.jpg" alt="Summer Humms!" title="Summer Humms!"/></a>-->
+			<a href="img/summer-humms-4500.jpg" class="big"><img src="img/summer-humms-4500.jpg" alt="Summer Humms!" title="Summer Humms!"/></a>
 
 			<a href="img/fire-season600px.jpg" class="small"><img src="img/fire-season300px.jpg" alt="Fire Season" title="Fire Season"/></a>
 
