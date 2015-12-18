@@ -2,7 +2,7 @@
 //grab current directory
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Connect with Reb";
+$PAGE_TITLE = "About Reb / Connect";
 require_once("php/utilities.php");
 require_once("php/header.php");
 ?>

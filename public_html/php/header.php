@@ -12,8 +12,7 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="<?php echo $PREFIX; ?>index.php">HOME</a></li>
       <li><a href="<?php echo $PREFIX; ?>selected-works.php" title="Selected works">SELECTED WORKS</a></li>
-      <li><a href="<?php echo $PREFIX; ?>about-reb.php">ABOUT REB</a></li>
-      <li><a href="<?php echo $PREFIX; ?>connect.php">CONNECT</a></li>
+      <li><a href="<?php echo $PREFIX; ?>connect.php">ABOUT REB</a></li>
     </ul>
   </div>
 </nav>
