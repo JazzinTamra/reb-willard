@@ -2,7 +2,7 @@
 //grab current directory
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Reb Willard";
+$PAGE_TITLE = "Connect with Reb";
 require_once("php/utilities.php");
 require_once("php/header.php");
 ?>
@@ -10,15 +10,22 @@ require_once("php/header.php");
 <main>
 		<div class="container">
 			<div class="row">
-				<div class="modal-header">
+			<img class="pull-left medium" src="<?php echo $PREFIX?>img/cps-oma.jpg" alt="Reb by her Granddaughter">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2> About Reb</h2>
+			<p>Collective spectre virtual identity emotion sentient personal observation. Translates expressive impulsive interpersonal graffiti navigate experimental appropriate nature. Historical technology navigate subculture consumer politics male-dominated existential superstition. Postmodern introspection industrial contrast normative Shepard Fairey gaze.</p>
+			<p>
+			Explore substance simulation everyday psychic immaterial dream site. Postmodern .net art ready-made reposition model zines dominated. Nothingness horror subjective spiritual phallic illuminate interpretation interior eroticism. Whimsical materialism outsider body martyr intimate mystical cliché universal. Politics Fountain mind's eye erotica ready-made fetish collective.</p>
+
 					<h3>Contact Reb</h3>
 				</div>
-
-				<div class="modal-body">
 					<form action="connect.php" method="post">
 						<!--begin contact us fields-->
 						<!--first name-->
-
 						<div class="form-group-lg">
 							<label class="control-label sr-only" for="name">Name</label>
 							<div class="input-group">
@@ -26,74 +33,67 @@ require_once("php/header.php");
 									<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 								</div>
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-								</div>
-<!--							<div class="alert alert-danger" role="alert" ng-messages="contactForm.name.$error" ng-if="contactForm.name.$touched" ng-hide="contactForm.name.$valid">-->
-<!--								<p ng-message="required">Please enter your name</p>-->
-<!--							</div>-->
-						<!--contact info-->
-<!--						<label class="control-label" for="firstname">Contact*</label>-->
-<!--						<div class="form-inline form-group-lg" ng-class="{ 'has-error': contactForm.email.$touched && contactForm.email.$invalid }">-->
+							</div>
 							<!--email-->
 							<label class="control-label sr-only" for="email">Email</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email" ng-model="contactData.email" ng-required="true" />
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email" " />
 							</div>
-<!--							<div class="alert alert-danger" role="alert" ng-messages="contactForm.email.$error" ng-if="contactForm.email.$touched" ng-hide="contactForm.email.$valid">-->
-<!--								<p ng-message="email">Email is invalid.</p>-->
-<!--								<p ng-message="required">Please enter an email.</p>-->
-<!--							</div>-->
-							<!--phone-->
-							<label class="control-label sr-only " for="phone">Phone</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-								</div>
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" />
-							</div>
-<!--							<div class="alert alert-danger" role="alert" ng-messages="contactForm.phone.$error" ng-if="contactForm.phone.$touched" ng-hide="contactForm.phone.$valid">-->
-<!--								<p ng-message="required">Please enter a phone number.</p>-->
-<!--							</div>-->
-						</div>
-
-						<!--subject-->
-						<div class="form-group-lg" ng-class="{ 'has-error' : contactForm.subject.$touched && contactForm.subject.$invalid }">
-							<label class="control-label" for="subject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-								</div>
-								<input type="text" class="form-control" maxlength = "256" id="subject" name="subject" placeholder="Subject" ng-model="contactData.subject" ng-maxlength="256" ng-required="true">
-							</div>
-							<div class="alert alert-danger" role="alert" ng-messages="contactForm.subject.$error" ng-if="contactForm.subject.$touched" ng-hide="contactForm.subject.$valid">
-								<p ng-message="required">Please enter a subject</p>
-								<p ng-message="maxlength">Subject is too long.</p>
-							</div>
-						</div>
-
 						<!--message-->
 						<div class="form-group-lg">
 							<label class="control-label" for="message">Message</label>
-							<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="How can we help?" ng-model="contactData.message" ng-maxlength="1024" ng-required="true"></textarea>
-							<div class="alert alert-danger" role="alert" ng-messages="contactForm.message.$error" ng-if="contactForm.message.$touched" ng-hide="contactForm.message.$valid">
-								<p ng-message="required">Please enter a message</p>
-								<p ng-message="maxlength">Message is too long.</p>
+							<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" ></textarea>
 							</div>
 						</div>
 				</div>
 
-				<div class="modal-footer">
-					<button type="submit" class="btn btn-primary" ng-click="ok();" ng-disabled="contactForm.$invalid"><i class="fa fa-check" aria-hidden="true"></i>Submit</button>
-					<button type="reset" class="btn btn-warning" ng-click="cancel();"><i class="fa fa-ban" aria-hidden="true"></i> Cancel</button>
-					</form>
-				</div>
-			</div>
-		</div>
+
 		</div>
 	</main>
 	<?php require_once("php/footer.php"); ?>
 
 </body>
 </html>
+
+				<?php
+				/**
+				* sends contents of a simple html form via swiftmailer
+				*
+				* Bradley Brown <tall.white.ninja@gmail.com>
+				*/
+//				require_once(dirname(dirname(__DIR__)) . "bread-basket/vendor/swiftmailer");
+				if(empty($_POST["email"]) === false && empty($_POST["content"]) === false) {
+				try {
+				//compose and send the email
+				//create swift message
+				$swiftMessage = Swift_Message::newInstance();
+				$swiftMessage->setFrom([$_POST["email"] => "Inquiry"]);
+				$recipients = ["fenstermaker505@gmail.com"];
+				$swiftMessage->setTo($recipients);
+				//attach subject line
+				$swiftMessage->setSubject("Note from personal website");
+				//attach the actual message
+				$message = trim($_POST["content"]);
+				$message = filter_var($message, FILTER_SANITIZE_STRING);
+				$swiftMessage->setBody($message, "text/plain");
+				//send email via smtp
+				$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
+				$mailer = Swift_Mailer::newInstance($smtp);
+				$numSent = $mailer->send($swiftMessage, $failedRecipients);
+				//throw an exception if the number of people who
+				if($numSent !== count($recipients)) {
+				// the $failedRecipients parameter passed in the send() method now contains contains an array of the Emails that failed
+				throw(new RuntimeException("unable to send email"));
+				}
+				// report a successful send
+				echo "<div class=\"alert alert-success\ col-md-6 col-md-offset-3\" role=\"alert\">Email successfully sent.</div>";
+			} catch(Exception $exception) {
+			echo "<div class=\"alert alert-danger\ col-md-6 col-md-offset-3\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	}
+	$basePath = $_SERVER["SCRIPT_NAME"];
+	$lastSlash = strrpos($basePath, "/");
+	$basePath = substr($basePath, 0, $lastSlash);
+	}

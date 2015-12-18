@@ -1,46 +1,4 @@
 
-/*.jumbotron {*/
-	/*!*background-image: url("../img/extra-large/color-study-no102-1376px.jpg");*!*/
-	/*background-size: cover;*/
-	/*margin: 0;*/
-	/*padding: 0;*/
-	/*border: 0;*/
-	/*font-size: 10px;*/
-	/*background-repeat: no-repeat;*/
-/*}*/
-
-/*.jumbotron p{*/
-	/*margin-bottom:15px;*/
-	/*font-size:10px;*/
-	/*font-weight:200*/
-/*}*/
-
-nav {
-	font-size: 14px;
-	padding-right: 30px;
-}
-
-/*body {*/
-	/*font-size: 10px;*/
-/*}*/
-
-/*.container {*/
-	/*width: auto;*/
-	/*max-width: 680px;*/
-	/*padding: 0 15px;*/
-/*}*/
-
-.navbar{
-	border-radius:0px;
-}
-.navbar-brand,
-.navbar-nav li a {
-	line-height: 75px;
-	height: 75px;
-	padding-top: 0px;
-}
-
-
 /* Set the fixed height of the footer here */
 #footer {
 	height: 40px;
@@ -58,10 +16,7 @@ nav {
 	margin: 5px;
 }
 
-.sig {
-	padding-top: 5px;
-	padding-left: 30px;
-}
+
 
 /* line 1, ../sass/demo.scss */
 html, body {
@@ -131,4 +86,39 @@ a {
 
 .small {
 	height: 200px;
+}
+ .medium {
+	 width: 300px;
+	 border-style: solid;
+	 border-width: 2px;
+	 border-color: #cccccc;
+	 margin: 10px;
+	 margin-left: 20px;
+
+ }
+
+.input-group {
+	margin: 10px;
+}
+
+.carousel {
+	position:absolute;
+	top:0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 75px;
+	height: 75px;
+	padding-top: 0px;
+	border-radius:0px;
+}
+nav {
+	font-size: 14px;
+	padding-right: 30px;
+	z-index:10;
+}
+.sig {
+	padding-top: 5px;
+	padding-left: 30px;
 }

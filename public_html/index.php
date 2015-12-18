@@ -9,7 +9,7 @@ require_once("php/utilities.php");
 
 <?php require_once("php/header.php");?>
 <main>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>

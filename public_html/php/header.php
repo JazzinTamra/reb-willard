@@ -1,3 +1,4 @@
+<div class="bannerContainer">
 <nav class="navbar navbar-default">
   <div class="navbar-header nav-radius">
     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
@@ -16,3 +17,4 @@
     </ul>
   </div>
 </nav>
+</div>
