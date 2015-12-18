@@ -1,62 +1,134 @@
 
-.jumbotron {
-	/*background-image: url("../img/extra-large/color-study-no102-1376px.jpg");*/
-	background-size: cover;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 10px;
-	background-repeat: no-repeat;
+/*.jumbotron {*/
+	/*!*background-image: url("../img/extra-large/color-study-no102-1376px.jpg");*!*/
+	/*background-size: cover;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*border: 0;*/
+	/*font-size: 10px;*/
+	/*background-repeat: no-repeat;*/
+/*}*/
+
+/*.jumbotron p{*/
+	/*margin-bottom:15px;*/
+	/*font-size:10px;*/
+	/*font-weight:200*/
+/*}*/
+
+nav {
+	font-size: 14px;
+	padding-right: 30px;
 }
 
-.jumbotron p{
-	margin-bottom:15px;
-	font-size:10px;
-	font-weight:200
-}
-main {
+/*body {*/
+	/*font-size: 10px;*/
+/*}*/
 
-}
-
-body {
-	font-size: 10px;
-}
-
-.container {
-	width: auto;
-	max-width: 680px;
-	padding: 0 15px;
-}
+/*.container {*/
+	/*width: auto;*/
+	/*max-width: 680px;*/
+	/*padding: 0 15px;*/
+/*}*/
 
 .navbar{
 	border-radius:0px;
 }
-
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 75px;
+	height: 75px;
+	padding-top: 0px;
+}
 
 
 /* Set the fixed height of the footer here */
 #footer {
-	height: 30px;
+	height: 40px;
 	background-color: white;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	/*clear: both;*/
-	font-size: 10px;
-	padding-top: 7px;
+	font-size: 11px;
+	padding-top: 12px;
+	padding-left: 30px;
 }
 
 .imput-group {
 	margin: 5px;
 }
 
-.navbar-brand,
-.navbar-nav li a {
-	line-height: 60px;
-	height: 60px;
-	padding-top: 0px;
+.sig {
+	padding-top: 5px;
+	padding-left: 30px;
 }
 
+/* line 1, ../sass/demo.scss */
+html, body {
+	/*font-family: 'Slabo 27px', serif;*/
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+
+/* line 8, ../sass/demo.scss */
+* {
+	box-sizing: border-box;
+}
+
+/* line 12, ../sass/demo.scss */
+a {
+	color: #4ab19a;
+}
+
+/* line 16, ../sass/demo.scss */
+.clear {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+/* line 22, ../sass/demo.scss */
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* line 32, ../sass/demo.scss */
+.container .gallery a img {
+	float: left;
+	width: 20%;
+	height: auto;
+	border: 2px solid #fff;
+	-webkit-transition: -webkit-transform .15s ease;
+	-moz-transition: -moz-transform .15s ease;
+	-o-transition: -o-transform .15s ease;
+	-ms-transition: -ms-transform .15s ease;
+	transition: transform .15s ease;
+	position: relative;
+}
+/* line 46, ../sass/demo.scss */
+.container .gallery a:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	z-index: 5;
+}
 /* line 57, ../sass/demo.scss */
 .container .gallery a.big img {
 	width: 40%;
+}
+
+/* line 65, ../sass/demo.scss */
+.align-center {
+	text-align: center;
+}
+
+.small {
+	height: 200px;
+}

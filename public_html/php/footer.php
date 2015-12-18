@@ -10,8 +10,7 @@
 	<div class="container col-md-4">
 		<p class="footer-text">Rebecca Willard - Copyright &#169; 2015
 			<div class="container"
-				<a href="http://facebook.com/becky.willard2" target="_blank"><img src="../img/social-006_facebook.png" alt="facebook">
-				</a>
+
 		<script src="<?php echo $PREFIX; ?>js/simple-lightbox.min.js"></script>
 	</div>
 		</p>

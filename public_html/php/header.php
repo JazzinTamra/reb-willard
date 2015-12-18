@@ -4,7 +4,7 @@
       <span class="sr-only">main menu</span>
       <span class="glyphicon glyphicon-menu-hamburger"></span>
     </button>
-    <a class="navbar-brand img-responsive pull-left" src="/" alt="Reb's Signature"><img src="<?php echo $PREFIX; ?>img/reb-willard-sig-logo-50px-tall.png" alt=""></a>
+    <a class="navbar-brand img-responsive sig" src="/" alt="Reb's Signature"><img src="<?php echo $PREFIX; ?>img/reb-willard-sig-logo-200x63p.png" alt=""></a>
   </div>
 
   <div class="collapse navbar-collapse" id="main-menu">
