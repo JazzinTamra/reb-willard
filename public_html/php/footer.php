@@ -12,7 +12,8 @@
 			<div class="container"
 				<a href="http://facebook.com/becky.willard2" target="_blank"><img src="../img/social-006_facebook.png" alt="facebook">
 				</a>
-			</div>
+		<script src="../js/simple-lightbox.min.js"></script>
+	</div>
 		</p>
 	</div>
 </div>

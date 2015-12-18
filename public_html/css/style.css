@@ -46,3 +46,13 @@ body {
 	padding-top: 7px;
 }
 
+.imput-group {
+	margin: 5px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 60px;
+	height: 60px;
+	padding-top: 0px;
+}

@@ -1,26 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Tamra
- * Date: 12/5/2015
- * Time: 8:43 AM
- */
-/*grab current directory*/
-$CURRENT_DIR = __DIR__;
-/*set page title here*/
-
-
-require_once('template/prefix-utilities.php')
-?>
-
-<!DOCTYPE html>
 <nav class="navbar navbar-default">
   <div class="navbar-header nav-radius">
     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
       <span class="sr-only">main menu</span>
       <span class="glyphicon glyphicon-menu-hamburger"></span>
     </button>
-    <a class="navbar-brand" href="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/184607_128889107183649_38636_n.jpg?oh=4d677bd0856f18d38b8b66b17c32a6d9&oe=56DEC6D7">Your Logo/Text Here</a>
+    <a class="navbar-brand img-responsive pull-left" src="/" alt="Reb's Signature"><img src="<?php echo $PREFIX; ?>img/reb-willard-sig-logo-50px-tall.png" alt=""></a>
   </div>
 
   <div class="collapse navbar-collapse" id="main-menu">
@@ -31,5 +15,4 @@ require_once('template/prefix-utilities.php')
       <li><a href="<?php echo $PREFIX; ?>connect.php">CONNECT</a></li>
     </ul>
   </div>
-</nav>
 </nav>
