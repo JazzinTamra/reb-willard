@@ -32,7 +32,7 @@ require_once("php/utilities.php");
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/extra-large/chama-in-bloom-1600px.jpg" alt="Chama in Bloom">
+				<img src="img/extra-large/chama-in-bloom-1600-px.jpg" alt="Chama in Bloom">
 				<div class="Chama in Bloom">
 					...
 				</div>

@@ -26,7 +26,7 @@ require_once("php/header.php");
 
 			<a href="img/illusionar-progess-592px.jpg" class="small"><img src="img/illusionar-progess-300px.jpg" alt="Illusionary Progress" title="Illusionary Progress"/></a>
 
-			<a href="img/chama-in-bloom.jpg"><img src="img/chama-in-bloom.jpg" alt="Chama in Bloom" title="Chama in Bloom"/></a>
+			<a href="img/chama-in-bloom-204-px.jpg"><img src="img/chama-in-bloom-204-px.jpg" alt="Chama in Bloom" title="Chama in Bloom"/></a>
 
 			<a href="img/abiquiu-church-in-ruins-600px.jpg" class="big"><img src="img/abiquiu-church-in-ruins-300px.jpg" alt="Abiquiu Church in Ruins" title="Abiquiu Church in Ruins"/></a>
 
@@ -37,7 +37,9 @@ require_once("php/header.php");
 		</div>
 	</div>
 </main>
-	<?php require_once("php/footer.php"); ?>
+	<?php
+	require_once("js/custom-scripts.js");
+	require_once("php/footer.php"); ?>
 
 </body>
 </html>

@@ -28,6 +28,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- My CSS style sheet -->
 		<link type="text/css" href="<?php echo $PREFIX;?>css/style.css" rel="stylesheet">
+		<link type="text/css" href="<?php echo $PREFIX;?>css/simplelightbox.min.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,12 +36,12 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) NECESSARY FOR SIMPLE LIGHT BOX -->
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled pugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>js/simple-lightbox.js"></script>
+		<script type="text/javascript" src="<?php echo $PREFIX;?>js/simple-lightbox.min.js"></script>
 
 		<script src="<?php echo $PREFIX;?>js/custom-scripts.js"></script>
 
