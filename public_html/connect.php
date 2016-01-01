@@ -28,32 +28,41 @@ require_once("php/header.php");
 						<!--first name-->
 						<div class="form-group-lg">
 							<label class="control-label sr-only" for="name">Name</label>
-							<div class="input-group">
-								<div class="input-group-addon">
+								<div class="input-group">
+									<div class="input-group-addon">
 									<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-							</div>
 							<!--email-->
 							<label class="control-label sr-only" for="email">Email</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+									</div>
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email"  />
 								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email" " />
-							</div>
-						<!--message-->
-						<div class="form-group-lg">
-							<label class="control-label" for="message">Message</label>
-							<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" ></textarea>
-							</div>
+							<!--message-->
+							<label class="control-label sr-only" for="message">Message</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<span class="fa fa-form fa-pencil" aria-hidden="true"></span>
+									</div>
+										<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" ></textarea>
+								</div>
+							<!--start buttons-->
+							<button type="submit" class="btn btn-lg">Submit</button>
+							<button type="reset" class="btn btn-lg">Cancel</button>
 						</div>
+					</form>
 				</div>
 
 
-		</div>
+
+
+
 	</main>
-	<?php require_once("php/footer.php"); ?>
+<!--	--><?php //require_once("php/footer.php"); ?>
 
 </body>
 </html>
@@ -62,27 +71,34 @@ require_once("php/header.php");
 				/**
 				* sends contents of a simple html form via swiftmailer
 				*
-				* Bradley Brown <tall.white.ninja@gmail.com>
+				* Tamra Fenstermaker <fenstermaker505@gmail.com>
 				*/
-//				require_once(dirname(dirname(__DIR__)) . "bread-basket/vendor/swiftmailer");
-				if(empty($_POST["email"]) === false && empty($_POST["content"]) === false) {
+
+				require_once(dirname(dirname(__DIR__)) . "/vendor/autoload.php");
+
+				if(empty($_POST["email"]) === false && empty($_POST["message"]) === false) {
 				try {
+
 				//compose and send the email
 				//create swift message
 				$swiftMessage = Swift_Message::newInstance();
 				$swiftMessage->setFrom([$_POST["email"] => "Inquiry"]);
 				$recipients = ["fenstermaker505@gmail.com"];
 				$swiftMessage->setTo($recipients);
+
 				//attach subject line
 				$swiftMessage->setSubject("Note from personal website");
+
 				//attach the actual message
-				$message = trim($_POST["content"]);
+				$message = trim($_POST["message"]);
 				$message = filter_var($message, FILTER_SANITIZE_STRING);
 				$swiftMessage->setBody($message, "text/plain");
+
 				//send email via smtp
 				$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
 				$mailer = Swift_Mailer::newInstance($smtp);
 				$numSent = $mailer->send($swiftMessage, $failedRecipients);
+
 				//throw an exception if the number of people who
 				if($numSent !== count($recipients)) {
 				// the $failedRecipients parameter passed in the send() method now contains contains an array of the Emails that failed

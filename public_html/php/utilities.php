@@ -26,6 +26,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- optional theme -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
 
+		<!--Font Awesome-->
+		<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
 		<!-- My CSS style sheet -->
 		<link type="text/css" href="<?php echo $PREFIX;?>css/style.css" rel="stylesheet">
 		<link type="text/css" href="<?php echo $PREFIX;?>css/simplelightbox.min.css" rel="stylesheet">

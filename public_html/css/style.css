@@ -127,3 +127,9 @@ nav {
 	/*!*filter: alpha(opacity=50);*!*/
 	/*opacity: 0.5;*/
 }
+
+.fa-form {
+	/*color: rgb(56, 67, 64);*/
+	font-size: 20px;
+	/*margin: 0px 5px;*/
+}
