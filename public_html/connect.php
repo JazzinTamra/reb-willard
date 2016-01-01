@@ -74,7 +74,7 @@ require_once("php/header.php");
 				* Tamra Fenstermaker <fenstermaker505@gmail.com>
 				*/
 
-				require_once(dirname(dirname(__DIR__)) . "/vendor/autoload.php");
+				require_once(dirname(__DIR__) . "/vendor/autoload.php");
 
 				if(empty($_POST["email"]) === false && empty($_POST["message"]) === false) {
 				try {
