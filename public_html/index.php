@@ -20,7 +20,7 @@ require_once("php/utilities.php");
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="img/extra-large/santafe-walk-1600.jpg" alt="Santa Fe Walk">
+				<img src="img/extra-large/santa-fe-walk-1600-px.jpg" alt="Santa Fe Walk">
 				<div class="Santa Fe Walk">
 					...
 				</div>
