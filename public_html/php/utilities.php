@@ -29,6 +29,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!--Font Awesome-->
 		<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
+		<!--Open Font-->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
 		<!-- My CSS style sheet -->
 		<link type="text/css" href="<?php echo $PREFIX;?>css/style.css" rel="stylesheet">
 		<link type="text/css" href="<?php echo $PREFIX;?>css/simplelightbox.min.css" rel="stylesheet">

@@ -9,20 +9,28 @@ require_once("php/header.php");
 
 <main>
 		<div class="container">
-			<div class="row">
+			<article class="container row col-lg-8">
+					<aside class="container col-lg-2">
 			<img class="pull-left medium" src="<?php echo $PREFIX?>img/cps-oma.jpg" alt="Reb by her Granddaughter">
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<h2> About Reb</h2>
-			<p>Collective spectre virtual identity emotion sentient personal observation. Translates expressive impulsive interpersonal graffiti navigate experimental appropriate nature. Historical technology navigate subculture consumer politics male-dominated existential superstition. Postmodern introspection industrial contrast normative Shepard Fairey gaze.</p>
+						<p>
+			She has created art most of her life, turning her talent into a career working as the in-house artist for the property development company, Henderson Properties in OKC; by working in an OKC community college’s advertising and promotions department; by working as the Production Director at Stereophile Magazine, Inc., and owning and operating Verano Gallery in Santa Fe, NM; and by producing, writing, and creating the artwork for a Spanish/English newspaper, The Observer of West Texas;  Diamonds and Dust, a compilation of stories and poetry from members of the Plainview Writers’ Guild; and the NAMI El Paso Newsletter.
+			Her work has won her awards at regional and local art competitions, and an Addy for the Tammaron Village billboard design.
+			She has served as the Vice President of the OKC Art Directors Club, and as the President of the Plainview Artist Guild. As one of the local artists to paint a life-size cow for the City of Plainview, Reb’s cow, Mazey, was later selected by the Chicago Bureau of Tourism and transported to Chicago to live at the Chicago City Zoo.</p>
+</aside>
+
+			<h2>Rebecca Willard, Artist</h2>
+			<div class="container col-lg-4">
+			<p><strong>Rebecca Willard</strong> is influenced by the natural world; she re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions.
+			Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  She is blessed to be able to create art full-time. It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there. </p>
 			<p>
-			Explore substance simulation everyday psychic immaterial dream site. Postmodern .net art ready-made reposition model zines dominated. Nothingness horror subjective spiritual phallic illuminate interpretation interior eroticism. Whimsical materialism outsider body martyr intimate mystical cliché universal. Politics Fountain mind's eye erotica ready-made fetish collective.</p>
+			Currently Reb is working as a professional artist in Provo, her home town, and served on the Utah County Art Board. She won an honorable mention for her work in its most recent Spring Art Show & Sale.
+			Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.
+			Her work is shown in local and regional shows throughout the Western United States.</p>
+			</div>
+</article>
 
 					<h3>Contact Reb</h3>
-				</div>
+
 					<form action="connect.php" method="post">
 						<!--begin contact us fields-->
 						<!--first name-->
