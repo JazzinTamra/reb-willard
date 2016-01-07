@@ -8,28 +8,34 @@ require_once("php/header.php");
 ?>
 
 <main>
-		<div class="container">
-			<article class="container row col-lg-8">
-					<aside class="container col-lg-2">
-			<img class="pull-left medium" src="<?php echo $PREFIX?>img/cps-oma.jpg" alt="Reb by her Granddaughter">
-						<p>
-			She has created art most of her life, turning her talent into a career working as the in-house artist for the property development company, Henderson Properties in OKC; by working in an OKC community college’s advertising and promotions department; by working as the Production Director at Stereophile Magazine, Inc., and owning and operating Verano Gallery in Santa Fe, NM; and by producing, writing, and creating the artwork for a Spanish/English newspaper, The Observer of West Texas;  Diamonds and Dust, a compilation of stories and poetry from members of the Plainview Writers’ Guild; and the NAMI El Paso Newsletter.
-			Her work has won her awards at regional and local art competitions, and an Addy for the Tammaron Village billboard design.
-			She has served as the Vice President of the OKC Art Directors Club, and as the President of the Plainview Artist Guild. As one of the local artists to paint a life-size cow for the City of Plainview, Reb’s cow, Mazey, was later selected by the Chicago Bureau of Tourism and transported to Chicago to live at the Chicago City Zoo.</p>
-</aside>
+		<div class="container-fluid">
+		<div class="row">
 
-			<h2>Rebecca Willard, Artist</h2>
-			<div class="container col-lg-4">
-			<p><strong>Rebecca Willard</strong> is influenced by the natural world; she re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions.
+			<article>
+					<div class="container-fluid">
+						<img class="img-responsive pull-left container-fluid col-md-8" src="<?php echo $PREFIX?>img/cowspecs.jpg" alt="Cowspecs">
+						<div class="col-md-8">
+									<p><b>Reb</b> Willard is influenced by the natural world; she re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions.
 			Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  She is blessed to be able to create art full-time. It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there. </p>
 			<p>
-			Currently Reb is working as a professional artist in Provo, her home town, and served on the Utah County Art Board. She won an honorable mention for her work in its most recent Spring Art Show & Sale.
+			Currently Reb is working in her hometown, Provo, Utah, as a professional artist, and served on the Utah County Art Board. She won an honorable mention for her work in its most recent Spring Art Show & Sale.
 			Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.
 			Her work is shown in local and regional shows throughout the Western United States.</p>
+			<img class="small align-center" src="<?php echo $PREFIX?>img/cps-oma.jpg" alt="Reb by her Granddaughter">
+
+						<p>
+						She has created art most of her life, turning her talent into a career working as the in-house artist for the property development company, Henderson Properties in OKC; by working in an OKC community college’s advertising and promotions department; by working as the Production Director at Stereophile Magazine, Inc., and owning and operating Verano Gallery in Santa Fe, NM; and by producing, writing, and creating the artwork for a Spanish/English newspaper, The Observer of West Texas;  Diamonds and Dust, a compilation of stories and poetry from members of the Plainview Writers’ Guild; and the NAMI El Paso Newsletter.
+						Her work has won her awards at regional and local art competitions, and an Addy for the Tammaron Village billboard design.
+						She has served as the Vice President of the OKC Art Directors Club, and as the President of the Plainview Artist Guild. As one of the local artists to paint a life-size cow for the City of Plainview, Reb’s cow, Mazey, was later selected by the Chicago Bureau of Tourism and transported to Chicago to live at the Chicago City Zoo.</p>
+					</div>
+					</div>
+
+<!--			<h2>Rebecca Willard, Artist</h2>-->
+			<div class="col-md-8">
 			</div>
 </article>
-
-					<h3>Contact Reb</h3>
+<div class="col-md-8">
+					<h3 >Contact Reb</h3>
 
 					<form action="connect.php" method="post">
 						<!--begin contact us fields-->
@@ -63,6 +69,7 @@ require_once("php/header.php");
 							<button type="reset" class="btn btn-lg">Cancel</button>
 						</div>
 					</form>
+				</div>
 				</div>
 
 

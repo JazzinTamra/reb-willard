@@ -15,12 +15,8 @@
 	margin: 5px;
 }
 
-strong {
-	font-size: 30px;
-}
-
-article {
-
+.aside {
+	background-color: #cccccc;
 }
 /* line 1, ../sass/demo.scss */
 html, body {
@@ -115,7 +111,7 @@ a {
 	line-height: 75px;
 	height: 75px;
 	padding-top: 0px;
-	border-radius:0px;
+	border-radius: 0px;
 }
 nav {
 	font-family: 'Open Sans', sans-serif;
@@ -143,3 +139,12 @@ nav {
 	height: 354px;
 }
 
+b {
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.contact-image {
+
+}
