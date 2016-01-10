@@ -12,7 +12,7 @@
 }
 
 .imput-group {
-	margin: 5px;
+	/*margin: 5px;*/
 }
 
 .aside {
@@ -135,15 +135,55 @@ nav {
 	font-size: 20px;
 	/*margin: 0px 5px;*/
 }
+
 .unexpectedPath {
 	height: 354px;
 }
 
 b {
-	font-size: 30px;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+/*Working on blockquote style */
+
+blockquote {
+	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-}
+	line-height: 30px;
+	 background: #f9f9f9;
+	 border-left: 10px solid #fff;
+	 margin: 1.5em 10px;
+	 padding: 0.5em 10px;
+	 /*quotes: "\201C""\201D""\2018""\2019";*/
+ }
+
+/*blockquote:before {*/
+	/*color: #ccc;*/
+	/*content: open-quote;*/
+	/*font-size: 4em;*/
+	/*line-height: 0.1em;*/
+	/*margin-right: 0.25em;*/
+	/*vertical-align: -0.4em;*/
+/*}*/
+
+/*blockquote:after {*/
+
+	/*color:#ccc;*/
+	/*content:close-quote;*/
+	/*font-size:4em;*/
+	/*line-height:.1em;*/
+	/*margin-right:.25em;*/
+	/*vertical-align:-.4em;*/
+/*}*/
+
+/*blockquote p {*/
+	/*display: inline;*/
+/*}*/
+
 
 .contact-image {
 
