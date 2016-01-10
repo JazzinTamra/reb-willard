@@ -17,7 +17,7 @@ require_once("php/header.php");
 
 						<div class="" >
 							<p><b>Reb Willard</b> is influenced by the natural world. She re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions. Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  <blockquote>“It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there.” </blockquote></p>
-							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter. Her work is shown in local and regional shows throughout the Western United States.</p>
+							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Her work is shown in local and regional shows throughout the Western United States. Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.</p>
 <!--			<img class="small align-center" src="--><?php //echo $PREFIX?><!--img/cps-oma.jpg" alt="Reb by her Granddaughter">-->
 
 <!--						<p>-->

@@ -87,23 +87,23 @@ a {
 .small {
 	height: 200px;
 }
- .medium {
-	 width: 300px;
-	 border-style: solid;
-	 border-width: 2px;
-	 border-color: #cccccc;
-	 margin: 10px;
-	 margin-left: 20px;
 
- }
+.medium {
+ width: 300px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: #cccccc;
+ margin: 10px;
+ margin-left: 20px;
+}
 
 .input-group {
 	margin: 10px;
 }
 
 .carousel {
-	position:absolute;
-	top:0;
+	position: relative;
+	top:-25px;
 }
 
 .navbar-brand,
@@ -122,7 +122,6 @@ nav {
 .sig {
 	padding-top: 5px;
 	padding-left: 30px;
-
 }
 .transparent {
 	/*zoom: 1;*/
@@ -131,9 +130,12 @@ nav {
 }
 
 .fa-form {
-	/*color: rgb(56, 67, 64);*/
-	font-size: 20px;
-	/*margin: 0px 5px;*/
+	font-size: 18px;
+	margin: 0px 0px;
+}
+
+.glyphicon {
+	margin-right: 2px;
 }
 
 .unexpectedPath {
