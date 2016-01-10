@@ -12,10 +12,8 @@ require_once("php/header.php");
 		<div class="row">
 			<article>
 				<div class="container-fluid ">
-
-					<img class="img-responsive pull-left container-fluid col-lg-9 col-md-8 col-sm-9 col-xs-12" src="<?php echo $PREFIX?>img/cowspecs.jpg" alt="Cowspecs">
-
-						<div class="" >
+					<img class="img-responsive pull-left container-fluid col-lg-9 col-md-8 col-sm-9 col-xs-12" src="<?php echo $PREFIX?>img/cowspecs.jpg" alt="Cowspecs" name="Cowspecs">
+						<div class="about-reb-align" >
 							<p><b>Reb Willard</b> is influenced by the natural world. She re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions. Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  <blockquote>“It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there.” </blockquote></p>
 							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Her work is shown in local and regional shows throughout the Western United States. Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.</p>
 <!--			<img class="small align-center" src="--><?php //echo $PREFIX?><!--img/cps-oma.jpg" alt="Reb by her Granddaughter">-->
@@ -29,7 +27,7 @@ require_once("php/header.php");
 						</div>
 				</div>
 			</article>
-				<div class="col-lg-9 col-md-12 col-sm-9 col-xs-12">
+				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12">
 					<h3 >Contact Reb</h3>
 					<form action="connect.php" method="post">
 					<!--begin contact us fields-->
