@@ -20,7 +20,7 @@ require_once("php/header.php");
 						</div>
 				</div>
 			</article>
-				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12">
+				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12" id="contactReb">
 					<h3 >Contact Reb</h3>
 					<form action="connect.php" method="post">
 					<!--begin contact us fields-->
@@ -34,7 +34,7 @@ require_once("php/header.php");
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
 					<!--email-->
-						<label class="control-label sr-only" for="email">Email</label>
+						<label class="control-label sr-only" for="email">Email*</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
@@ -42,7 +42,7 @@ require_once("php/header.php");
 									<input type="email" class="form-control" id="email" name="email" placeholder="Email"  />
 							</div>
 						<!--message-->
-						<label class="control-label sr-only" for="message">Message</label>
+						<label class="control-label sr-only" for="message">Message*</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<span class="fa fa-form fa-pencil" aria-hidden="true"></span>
@@ -75,10 +75,14 @@ require_once("php/header.php");
 				if(empty($_POST["email"]) === false && empty($_POST["message"]) === false) {
 				try {
 
+				//sanitize name and email
+				$name = trim($_POST["name"]);
+				$name = filter_var($name, FILTER_SANITIZE_STRING);
+
 				//compose and send the email
 				//create swift message
 				$swiftMessage = Swift_Message::newInstance();
-				$swiftMessage->setFrom([$_POST["email"] => $_POST["name"]]);
+				$swiftMessage->setFrom([$_POST["email"] => $name]);
 				$recipients = ["fenstermaker505@gmail.com"];
 				$swiftMessage->setTo($recipients);
 
@@ -101,9 +105,9 @@ require_once("php/header.php");
 				throw(new RuntimeException("unable to send email"));
 				}
 				// report a successful send
-				echo "<div class=\"alert alert-success\ col-md-6 col-md-offset-3\" role=\"alert\">Email successfully sent.</div>";
+				echo "<script type='text/javascript'>alert('Email successfully sent.')</script>";
 			} catch(Exception $exception) {
-			echo "<div class=\"alert alert-danger\ col-md-6 col-md-offset-3\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+			echo "<script type='text/javascript'>alert('Oops/! Unable to send email:' . $exception->getMessage() . )</script>";
 	}
 	$basePath = $_SERVER["SCRIPT_NAME"];
 	$lastSlash = strrpos($basePath, "/");

@@ -45,14 +45,13 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) NECESSARY FOR SIMPLE LIGHT BOX -->
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled pugins included -->
-		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="<?php echo $PREFIX;?>js/simple-lightbox.min.js"></script>
+
 
 		<script src="<?php echo $PREFIX;?>js/custom-scripts.js"></script>
 
-
-		<link type="text/css" href="<?php echo $PREFIX;?>css/demo.css" rel="stylesheet">
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 
