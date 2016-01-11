@@ -8,46 +8,51 @@ require_once("php/header.php");
 ?>
 
 <main>
-	<div class="container-fluid">
+	<div class="container-fluid" id="content">
 		<div class="row">
 			<article>
 				<div class="container-fluid ">
 					<img class="img-responsive pull-left container-fluid col-lg-9 col-md-8 col-sm-9 col-xs-12" src="<?php echo $PREFIX?>img/cowspecs.jpg" alt="Cowspecs" name="Cowspecs">
 						<div class="about-reb-align" >
-							<p><b>Reb Willard</b> is influenced by the natural world. She re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions. Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  <blockquote>“It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there.” </blockquote></p>
-							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Her work is shown in local and regional shows throughout the Western United States. Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.</p>
-
+							<p>For <b>Reb Willard</b>, making art is a language filled with possibilities. Every painting, sketch, or photo is a visual story of the world she inhabits. She takes shape, line, color, and texture and wraps it around an idea to create work that is expressive of her inner self and her life experiences. Each painting is a story, an actual piece of her life. It’s very personal.
+							<p>Reb is influenced by the natural world; she re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions.
+							<blockquote>“It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there.” </blockquote></p>
+							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Her work is shown in local and regional shows throughout the Western United States.</p>
+							</p>
 						</div>
 				</div>
 			</article>
-				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12" id="contactReb">
+				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12">
 					<h3 >Contact Reb</h3>
-					<form action="connect.php" method="post">
+					<form action="connect.php" method="post" id="contact-form">
 					<!--begin contact us fields-->
 					<!--first name-->
-					<div class="form-group-lg">
-						<label class="control-label sr-only" for="name">Name</label>
+					<div class="control-group">
+						<label class=" control-label sr-only" for="name">Name</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 								</div>
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
+					</div><!--control group-->
 					<!--email-->
+					<div class="control-group">
 						<label class="control-label sr-only" for="email">Email*</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 								</div>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email"  />
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
 							</div>
+					</div><!--control group-->
 						<!--message-->
 						<label class="control-label sr-only" for="message">Message*</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<span class="fa fa-form fa-pencil" aria-hidden="true"></span>
 								</div>
-									<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" ></textarea>
+									<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" required></textarea>
 							</div>
 						<!--start buttons-->
 						<button type="submit" class="btn btn-lg">Submit</button>
@@ -58,7 +63,10 @@ require_once("php/header.php");
 		</div>
 	</div>
 	</main>
-<!--	--><?php //require_once("php/footer.php"); ?>
+
+	<?php
+	require_once("php/footer.php");
+	?>
 
 </body>
 </html>

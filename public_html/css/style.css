@@ -1,14 +1,15 @@
 /* Set the fixed height of the footer here */
 #footer {
-	height: 40px;
 	background-color: white;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	/*clear: both;*/
+	clear: both;
+	height: 40px;
 	font-size: 11px;
 	padding-top: 12px;
 	padding-left: 30px;
+	z-index: 10;
 }
 
 .imput-group {
@@ -160,6 +161,10 @@ b {
 	line-height: 30px;
 }
 
+p {
+	line-height: 160%;
+}
+
 blockquote {
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
@@ -171,7 +176,6 @@ blockquote {
 	 padding: 0.5em 10px;
 	 /*quotes: "\201C""\201D""\2018""\2019";*/
  }
-
-.alert {
-	margin-top: 4px;
+#content {
+	margin-bottom: 42px;
 }

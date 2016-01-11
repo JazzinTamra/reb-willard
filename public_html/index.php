@@ -20,24 +20,15 @@ require_once("php/utilities.php");
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="img/extra-large/santa-fe-walk-1600-px.jpg" alt="Santa Fe Walk">
-				<div class="Santa Fe Walk">
-					...
-				</div>
+				<img src="img/extra-large/chama-in-bloom-1600-px.jpg" alt="Chama in Bloom" title="Chama in Bloom">
 			</div>
 			<div class="item">
-				<img src="img/extra-large/abiquiu-church-in-ruins-1600px.jpg" alt="Abiquiu Church in Ruin">
-				<div class="Color Study No 102">
-					...
-				</div>
+				<img src="img/extra-large/abiquiu-church-in-ruins-1600px.jpg" alt="Abiquiu Church in Ruin" title="Abiquiu Church in Ruin">
 			</div>
 			<div class="item">
-				<img src="img/extra-large/chama-in-bloom-1600-px.jpg" alt="Chama in Bloom">
-				<div class="Chama in Bloom">
-					...
+				<img src="img/extra-large/santa-fe-walk-1600-px.jpg" alt="Santa Fe Walk" title="Santa Fe Walk">
 				</div>
 			</div>
-
 		</div>
 
 		<!-- Controls -->
@@ -49,7 +40,7 @@ require_once("php/utilities.php");
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-	</div>
+	</div> <!-- Carousel -->
 </div>
 </main>
 	<?php require_once("php/footer.php");?>
