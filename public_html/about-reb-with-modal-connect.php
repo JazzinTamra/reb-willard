@@ -16,15 +16,25 @@ require_once("php/header.php");
 						<div class="about-reb-align" >
 							<p><b>Reb Willard</b> is influenced by the natural world. She re-imagines the landscape that surrounds her and pours intense color and unusual textures onto canvas to create the color-saturated world she envisions. Her artistic toolbox includes all manner of media: acrylics, pastels, oils, pencil, charcoal, water color, and photography.  <blockquote>“It’s a gift to be able to let one’s imagination roam the corners of the mind and dig out the stories buried there.” </blockquote></p>
 							<p>Currently Reb is a full-time artist working in her hometown, Provo, Utah. Her work is shown in local and regional shows throughout the Western United States. Reb is the mother of two beautiful daughters and the grandmother of a spirited and talented granddaughter.</p>
-
 						</div>
 				</div>
-			</article>
-				<div class="about-reb-align col-lg-9 col-md-12 col-sm-9 col-xs-12">
-					<h3 >Contact Reb</h3>
-					<form action="connect.php" method="post">
+		</div><!--row-->
+
+<!--			working to add a contact modal-->
+			 <!-- Button trigger modal -->
+  <a data-toggle="modal" href="#myModal" class="btn btn-default btn-lg">Contact Reb</a>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content"><!--styles the modal-->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 class="modal-title">Contact Reb</h3>
+        </div><!--.modal-header-->
+        <div class="modal-body">
+				<form action="connect.php" method="post">
 					<!--begin contact us fields-->
-					<!--first name-->
+					<!--name-->
 					<div class="form-group-lg">
 						<label class="control-label sr-only" for="name">Name</label>
 							<div class="input-group">
@@ -49,14 +59,31 @@ require_once("php/header.php");
 								</div>
 									<textarea class="form-control" rows ="3" maxlength = "1024" id="message" name="message" placeholder="Message" ></textarea>
 							</div>
+												</div>
 						<!--start buttons-->
 						<button type="submit" class="btn btn-lg">Submit</button>
-						<button type="reset" class="btn btn-lg">Cancel</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+						<button type="reset" class="btn btn-lg" data-dismiss="modal">Cancel</button>
+
+
+
+			</div> <!--.modal-body-->
+        <div class="modal-footer">
+        </div> <!--modal footer-->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+
+
+        </form>
+
+
+  </div><!-- /.modal -->
+			</article>
+
+
+
+			</div><!--row-->
+		</div><!--container-fluid-->
+
 	</main>
 <!--	--><?php //require_once("php/footer.php"); ?>
 
@@ -78,7 +105,7 @@ require_once("php/header.php");
 				//compose and send the email
 				//create swift message
 				$swiftMessage = Swift_Message::newInstance();
-				$swiftMessage->setFrom([$_POST["email"] => $_POST["name"]]);
+				$swiftMessage->setFrom([$_POST["email"] => "Inquiry"]);
 				$recipients = ["fenstermaker505@gmail.com"];
 				$swiftMessage->setTo($recipients);
 
@@ -101,7 +128,7 @@ require_once("php/header.php");
 				throw(new RuntimeException("unable to send email"));
 				}
 				// report a successful send
-				echo "<div class=\"alert alert-success\ col-md-6 col-md-offset-3\" role=\"alert\">Email successfully sent.</div>";
+				echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 			} catch(Exception $exception) {
 			echo "<div class=\"alert alert-danger\ col-md-6 col-md-offset-3\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 	}
