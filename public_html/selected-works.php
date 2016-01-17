@@ -9,7 +9,7 @@ require_once("php/header.php");
 
 <main>
 
-	<div class="container">
+	<div class="container" id="content">
 
 		<div class="gallery">
 			<a href="img/summer-humms-600-px2.jpg" class="big pos-outside"><img src="img/summer-humms-600-px2.jpg" alt="Summer Humms!" title="Summer Humms!"/></a>
@@ -37,10 +37,10 @@ require_once("php/header.php");
 		</div>
 	</div>
 </main>
-<!--	--><?php
+	<?php
 //	require_once("js/custom-scripts.js");
-//	require_once("php/footer.php");
-//	?>
+	require_once("php/footer.php");
+	?>
 
 </body>
 </html>
